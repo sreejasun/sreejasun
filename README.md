@@ -54,6 +54,6 @@ I am currently expanding my expertise in:
 
 ## Connect
 
-**LinkedIn:** [LinkedIn]([YOUR_LINKEDIN_URL](https://www.linkedin.com/in/sreeja-sunkeswaram-275208241/))  
-**Google Scholar:** [Google Scholar]([YOUR_GOOGLE_SCHOLAR_URL](https://scholar.google.com/citations?hl=en&user=s_hU8_UAAAAJ))  
+**LinkedIn:** [LinkedIn]([[YOUR_LINKEDIN_URL](https://www.linkedin.com/in/sreeja-sunkeswaram-275208241/)])  
+**Google Scholar:** [Google Scholar]([[YOUR_GOOGLE_SCHOLAR_URL](https://scholar.google.com/citations?hl=en&user=s_hU8_UAAAAJ)])  
 **Email:** sunkeswaramsreeja@gmail.com
