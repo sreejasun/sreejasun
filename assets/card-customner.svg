@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 230" width="490" height="230" role="img" aria-label="CustomNER: BDSR Solutions · Jun 2026 – now">
+<title>CustomNER — BDSR Solutions · Jun 2026 – now</title>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B0B0E"/><stop offset="1" stop-color="#16111b"/></linearGradient>
+<clipPath id="cc"><rect width="490" height="230" rx="20"/></clipPath></defs>
+<g clip-path="url(#cc)">
+<rect width="490" height="230" fill="url(#bg)"/>
+<circle cx="430" cy="30" r="130" fill="#E8A0B8" opacity=".06"><animate attributeName="opacity" values=".04;.1;.04" dur="6s" repeatCount="indefinite"/></circle>
+<text x="28" y="46" font-family="Inter,Segoe UI,Helvetica,Arial,sans-serif" font-size="22" font-weight="800" fill="#f4f4f7">CustomNER</text>
+<text x="28" y="68" font-family="SF Mono,Menlo,Consolas,monospace" font-size="12.5" fill="#E8A0B8">BDSR Solutions · Jun 2026 – now</text>
+<g transform="translate(296 38)">
+<line x1="0" y1="96" x2="165" y2="96" stroke="#3b3b45"/><line x1="0" y1="0" x2="0" y2="96" stroke="#3b3b45"/>
+<path d="M0.0,88.2 L9.2,76.9 L18.3,67.5 L27.5,59.6 L36.7,53.0 L45.8,47.5 L55.0,42.9 L64.2,39.0 L73.3,35.8 L82.5,33.0 L91.7,30.8 L100.8,28.9 L110.0,27.3 L119.2,25.9 L128.3,24.8 L137.5,23.9 L146.7,23.1 L155.8,22.4 L165.0,21.9" fill="none" stroke="#E8A0B8" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1">
+ <animate attributeName="stroke-dashoffset" values="1;0;0;1" keyTimes="0;.55;.9;1" dur="6s" repeatCount="indefinite"/></path>
+<circle r="5" fill="#F3C6D5"><animateMotion dur="6s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;.55;1" calcMode="linear" path="M0.0,88.2 L9.2,76.9 L18.3,67.5 L27.5,59.6 L36.7,53.0 L45.8,47.5 L55.0,42.9 L64.2,39.0 L73.3,35.8 L82.5,33.0 L91.7,30.8 L100.8,28.9 L110.0,27.3 L119.2,25.9 L128.3,24.8 L137.5,23.9 L146.7,23.1 L155.8,22.4 L165.0,21.9"/></circle>
+<text x="0" y="112" font-family="SF Mono,Menlo,Consolas,monospace" font-size="11" fill="#8d8d99">iteration 1</text>
+<text x="165" y="112" text-anchor="end" font-family="SF Mono,Menlo,Consolas,monospace" font-size="11" fill="#8d8d99">18</text>
+<text x="10" y="74" font-family="SF Mono,Menlo,Consolas,monospace" font-size="12" fill="#c9c9d1">F1 0.59</text>
+<text x="165" y="12" text-anchor="end" font-family="SF Mono,Menlo,Consolas,monospace" font-size="12" fill="#F3C6D5">0.93</text>
+</g>
+<text x="28" y="100" font-family="Inter,Segoe UI,Helvetica,Arial,sans-serif" font-size="14" fill="#c9c9d1">Pulls entities out of job postings.</text>
+<text x="28" y="119" font-family="Inter,Segoe UI,Helvetica,Arial,sans-serif" font-size="14" fill="#c9c9d1">Annotation, active learning and</text>
+<text x="28" y="138" font-family="Inter,Segoe UI,Helvetica,Arial,sans-serif" font-size="14" fill="#c9c9d1">retraining live in one Flask app.</text>
+<text x="462" y="180" text-anchor="end" font-family="Inter,Segoe UI,Helvetica,Arial,sans-serif" font-size="26" font-weight="800" fill="#F3C6D5">0.59 → 0.93</text><text x="462" y="197" text-anchor="end" font-family="SF Mono,Menlo,Consolas,monospace" font-size="11" fill="#8d8d99">entity F1, 18 iterations</text>
+<text x="28" y="208" font-family="SF Mono,Menlo,Consolas,monospace" font-size="11.5" fill="#8d8d99">Python · spaCy · Flask · active learning</text>
+</g>
+<rect x=".5" y=".5" width="489" height="229" rx="20" fill="none" stroke="#E8A0B8" stroke-opacity=".28"/>
+</svg>

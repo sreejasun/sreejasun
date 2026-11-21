@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 230" width="490" height="230" role="img" aria-label="Multi-Document RAG: retrieval-augmented Q&amp;A">
+<title>Multi-Document RAG — retrieval-augmented Q&amp;A</title>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B0B0E"/><stop offset="1" stop-color="#16111b"/></linearGradient>
+<clipPath id="cc"><rect width="490" height="230" rx="20"/></clipPath></defs>
+<g clip-path="url(#cc)">
+<rect width="490" height="230" fill="url(#bg)"/>
+<circle cx="430" cy="30" r="130" fill="#E8A0B8" opacity=".06"><animate attributeName="opacity" values=".04;.1;.04" dur="6s" repeatCount="indefinite"/></circle>
+<text x="28" y="46" font-family="Inter,Segoe UI,Helvetica,Arial,sans-serif" font-size="22" font-weight="800" fill="#f4f4f7">Multi-Document RAG</text>
+<text x="28" y="68" font-family="SF Mono,Menlo,Consolas,monospace" font-size="12.5" fill="#E8A0B8">retrieval-augmented Q&amp;A</text>
+<rect x="290" y="52" width="44" height="26" rx="5" fill="#101015" stroke="#4a4a56"/><line x1="298" y1="62" x2="326" y2="62" stroke="#4a4a56"/><line x1="298" y1="70" x2="318" y2="70" stroke="#4a4a56"/><rect x="290" y="86" width="44" height="26" rx="5" fill="#101015" stroke="#4a4a56"/><line x1="298" y1="96" x2="326" y2="96" stroke="#4a4a56"/><line x1="298" y1="104" x2="318" y2="104" stroke="#4a4a56"/><rect x="290" y="120" width="44" height="26" rx="5" fill="#101015" stroke="#4a4a56"/><line x1="298" y1="130" x2="326" y2="130" stroke="#4a4a56"/><line x1="298" y1="138" x2="318" y2="138" stroke="#4a4a56"/>
+<circle cx="400" cy="102" r="18" fill="#101015" stroke="#E8A0B8" stroke-width="2"><animate attributeName="stroke-opacity" values="1;.35;1" dur="2s" repeatCount="indefinite"/></circle>
+<text x="400" y="106" text-anchor="middle" font-family="SF Mono,Menlo,Consolas,monospace" font-size="10" fill="#E8A0B8">FAISS</text>
+<circle r="3.4" fill="#F3C6D5"><animateMotion dur="3.2s" begin="0.0s" repeatCount="indefinite" path="M334,65 L384,102"/><animate attributeName="opacity" values="0;1;1;0" dur="3.2s" begin="0.0s" repeatCount="indefinite"/></circle><circle r="3.4" fill="#F3C6D5"><animateMotion dur="3.2s" begin="0.5s" repeatCount="indefinite" path="M334,99 L384,102"/><animate attributeName="opacity" values="0;1;1;0" dur="3.2s" begin="0.5s" repeatCount="indefinite"/></circle><circle r="3.4" fill="#F3C6D5"><animateMotion dur="3.2s" begin="1.0s" repeatCount="indefinite" path="M334,133 L384,102"/><animate attributeName="opacity" values="0;1;1;0" dur="3.2s" begin="1.0s" repeatCount="indefinite"/></circle>
+<path d="M418,102 L440,102" stroke="#4a4a56" stroke-width="2"/><path d="M434,97 L441,102 L434,107" fill="none" stroke="#6a6a78" stroke-width="2" stroke-linecap="round"/>
+<rect x="444" y="82" width="36" height="40" rx="9" fill="none" stroke="#E8A0B8" stroke-opacity=".7"/>
+<text x="462" y="107" text-anchor="middle" font-family="SF Mono,Menlo,Consolas,monospace" font-size="11" fill="#F3C6D5">LLM</text>
+<circle r="3.4" fill="#E8A0B8"><animateMotion dur="3.2s" begin="1.2s" repeatCount="indefinite" path="M418,102 L444,102"/><animate attributeName="opacity" values="0;1;1;0" dur="3.2s" begin="1.2s" repeatCount="indefinite"/></circle>
+<text x="28" y="100" font-family="Inter,Segoe UI,Helvetica,Arial,sans-serif" font-size="14" fill="#c9c9d1">Ask questions across several</text>
+<text x="28" y="119" font-family="Inter,Segoe UI,Helvetica,Arial,sans-serif" font-size="14" fill="#c9c9d1">documents. FAISS finds the passages,</text>
+<text x="28" y="138" font-family="Inter,Segoe UI,Helvetica,Arial,sans-serif" font-size="14" fill="#c9c9d1">Gemini Pro writes the answer.</text>
+
+<text x="28" y="208" font-family="SF Mono,Menlo,Consolas,monospace" font-size="11.5" fill="#8d8d99">LangChain · Gemini Pro · Hugging Face · FAISS</text>
+</g>
+<rect x=".5" y=".5" width="489" height="229" rx="20" fill="none" stroke="#E8A0B8" stroke-opacity=".28"/>
+</svg>

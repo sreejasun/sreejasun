@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 64" width="1000" height="64" role="img" aria-label="Stack">
+<style>.t{fill:#17171c}.l{stroke:#17171c;stroke-opacity:.14}@media (prefers-color-scheme:dark){.t{fill:#f4f4f7}.l{stroke:#fff;stroke-opacity:.14}}</style>
+<text x="0" y="40" font-family="SF Mono,Menlo,Consolas,monospace" font-size="16" fill="#E8A0B8">06<animate attributeName="opacity" values="1;.4;1" dur="3s" repeatCount="indefinite"/></text>
+<text x="44" y="42" class="t" font-family="Inter,Segoe UI,Helvetica,Arial,sans-serif" font-size="28" font-weight="800" letter-spacing="-.5">Stack</text>
+<line x1="0" y1="58" x2="1000" y2="58" class="l" stroke-width="1"/>
+<line x1="0" y1="58" x2="140" y2="58" stroke="#E8A0B8" stroke-width="2.5" stroke-linecap="round">
+  <animate attributeName="x1" values="0;860;0" dur="6s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".5 0 .5 1;.5 0 .5 1"/>
+  <animate attributeName="x2" values="140;1000;140" dur="6s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".5 0 .5 1;.5 0 .5 1"/>
+</line>
+</svg>
