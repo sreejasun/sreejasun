@@ -69,7 +69,7 @@ Around the engine there's a C++ HTTP backend with SQLite and libsodium accounts,
 | When | Role | What I did |
 |---|---|---|
 | **Jun 2026 – now** | AI Engineer, Python Full Stack Intern · BDSR Solutions LLP | Designed and deployed CustomNER from scratch, then built the Flask human-in-the-loop app around it. |
-| **Mar 2026 – now** | Information Systems Grader · [Arizona State University](https://www.asu.edu/) | Grading graduate-level work in Python, information systems and analytics, with technical feedback students can act on. |
+| **Mar 2026 – now** | Information Systems Grader · Research Aide · [Arizona State University](https://www.asu.edu/) | Grading graduate-level work in Python, information systems and analytics, with technical feedback students can act on. |
 | **Jun 2024 – Apr 2025** | ML Research Intern · [IIT Madras](https://www.iitm.ac.in/) | NLP pipeline over 1,000+ customer-feedback records scraped from public sites, to find operational patterns in courier services. A two-level classifier that sorts feedback and routes it into 6 departments. A real-time email classification app for non-technical ops teams. |
 | **Sep – Oct 2024** | AI Developer Intern · UdyamWell (ONDC) | Computer-vision cataloging system, integrated into ONDC product onboarding: 92% detection accuracy, 40% less manual cataloging. |
 
