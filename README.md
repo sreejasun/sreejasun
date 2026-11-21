@@ -20,44 +20,49 @@ Looking back at what I've built, there's a pattern: it usually starts with messy
 
 - 🛠️ AI Engineer and Python Full Stack intern at BDSR Solutions
 - 📚 Grading graduate Information Systems assignments at ASU
-- ♟️ Building [**MandateIQ**](https://github.com/sreejasun/MandateIQ), a multi-agent system that reviews fund nominations (below)
+- 🗺️ Building [**Umbra**](https://github.com/sreejasun/umbra), a routing engine and web app for Tempe that plans shady walks and glare-aware drives (below)
 
 I'm looking for software engineering, AI/ML and data science roles.
 
 <img src="assets/h-building.svg" alt="Currently building" width="100%"/>
 
-<a href="https://github.com/sreejasun/MandateIQ"><img src="assets/card-mandateiq.svg" alt="MandateIQ: Proponent and Challenger agents debate, an evidence ledger and hallucination firewall check every claim, and a Trust Score decides the outcome" width="100%"/></a>
+<a href="https://github.com/sreejasun/umbra"><img src="assets/card-umbra.svg" alt="Umbra: fastest drives, shadiest walks. A C++20 routing engine and web app for Tempe, Arizona" width="100%"/></a>
 
-**[MandateIQ](https://github.com/sreejasun/MandateIQ)** reviews one fund at a time against an investment mandate. A Proponent agent builds the case for approval and a Challenger agent attacks it, for up to three rounds. Every claim has to cite an evidence ledger, and a hallucination firewall blocks anything that cites missing or misquoted evidence. Policy, cost and suitability rules run next to the agents, and a Trust Score decides whether a case is finalized, sent back for rework, or handed to a person. One rule it never bends: a high Trust Score cannot override a failed control.
+**[Umbra](https://github.com/sreejasun/umbra)** is the project I'm spending most of my time on right now. It's a C++20 routing engine and web app for Tempe, built on real OpenStreetMap data, and it plans trips differently from a typical maps app. Drives account for live traffic, rain, and the sun sitting low in your eyes. Walks use the shadows of 15,000+ buildings plus live weather to keep you out of the Arizona sun, and routes to ASU buildings end at whichever entrance is quickest to reach.
 
-Under the hood it's a FastAPI + SQLite backend with a React/TypeScript interface. AWS Bedrock is the main model provider, through the Converse API with a bounded tool-use loop for each agent. There's also a Groq adapter for when I don't have AWS access, and a mock provider so the whole test suite runs offline. It's an educational prototype on synthetic data, not investment advice.
+I wrote the core algorithms myself, with no graph or geometry libraries: Dijkstra and A\* on a hand-written indexed binary heap with decrease-key, multi-target search for building entrances, alternative routes with the penalty method, and Kosaraju's SCC to clean up the road graph. A drive search takes about 0.6 ms, and on time-optimal routes A\* settles 41% fewer nodes than Dijkstra (71% fewer for shortest distance).
+
+Around the engine there's a C++ HTTP backend with SQLite and libsodium accounts, an installable web app with spoken turn-by-turn navigation, and an opt-in SOS and danger-phrase feature that texts your location to an emergency contact after a cancellable 10-second countdown. **Ask Umbra** is an assistant that answers questions like "when is it coolest to walk to the MU today?" by calling the engine as tools, so it never makes up a route. 162 GoogleTest cases and CI with sanitizers on Linux and macOS cover the code.
 
 <table>
 <tr>
-<td width="50%"><a href="https://github.com/sreejasun/MandateIQ"><img src="https://raw.githubusercontent.com/sreejasun/MandateIQ/main/docs/screenshots/committee.png" alt="MandateIQ committee transcript" width="100%"/></a><br/><sub><b>Committee:</b> the debate, round by round. Withdrawn claims are struck through.</sub></td>
-<td width="50%"><a href="https://github.com/sreejasun/MandateIQ"><img src="https://raw.githubusercontent.com/sreejasun/MandateIQ/main/docs/screenshots/trust.png" alt="MandateIQ trust and governance view" width="100%"/></a><br/><sub><b>Trust and governance:</b> how the score was built, and every rule that fired.</sub></td>
+<td width="62%"><a href="https://github.com/sreejasun/umbra"><img src="https://raw.githubusercontent.com/sreejasun/umbra/main/docs/images/walk-shade.jpg" alt="Umbra shade-aware walk across ASU at 3 PM in July" width="100%"/></a><br/><sub><b>Walk in shade:</b> at 3 PM in July the shortest route is 23% shaded; the balanced one is 48% shaded for 9% more distance.</sub></td>
+<td width="38%"><a href="https://github.com/sreejasun/umbra"><img src="https://raw.githubusercontent.com/sreejasun/umbra/main/docs/images/mobile.jpg" alt="Umbra on a phone: route choices in a bottom sheet with live weather" width="100%"/></a><br/><sub><b>On a phone:</b> route choices and live weather.</sub></td>
 </tr>
 </table>
 
-👉 **[Code, architecture and setup on GitHub →](https://github.com/sreejasun/MandateIQ)**
+👉 **[Code, docs and setup on GitHub →](https://github.com/sreejasun/umbra)**
 
 <img src="assets/h-projects.svg" alt="Projects" width="100%"/>
+
+<a href="https://github.com/sreejasun/MandateIQ"><img src="assets/card-mandateiq.svg" alt="MandateIQ: Proponent and Challenger agents debate, an evidence ledger and hallucination firewall check every claim, and a Trust Score decides the outcome" width="100%"/></a>
 
 <table>
 <tr>
 <td width="50%"><img src="assets/card-customner.svg" alt="CustomNER: entity F1 from 0.59 to 0.93 over 18 iterations" width="100%"/></td>
-<td width="50%"><a href="https://drive.google.com/file/d/1v_k7RDhcDrZIFxkG2X88pN_TKJix34Hd/view?usp=drive_link"><img src="assets/card-delivery.svg" alt="Delivery optimization: 95% on-time fulfillment across 500K+ weekly orders" width="100%"/></a></td>
+<td width="50%"><img src="assets/card-delivery.svg" alt="Delivery optimization: 95% on-time fulfillment across 500K+ weekly orders" width="100%"/></td>
 </tr>
 <tr>
 <td width="50%"><img src="assets/card-rag.svg" alt="Multi-document RAG question answering" width="100%"/></td>
-<td width="50%"><a href="https://drive.google.com/file/d/1lOrfOd4O5sxYROFxYkp2dERLhaXOOSNO/view?usp=drive_link"><img src="assets/card-ondc.svg" alt="AI product cataloging for ONDC: 40% less manual effort" width="100%"/></a></td>
+<td width="50%"><img src="assets/card-ondc.svg" alt="AI product cataloging for ONDC: 40% less manual effort" width="100%"/></td>
 </tr>
 </table>
 
+- **[MandateIQ](https://github.com/sreejasun/MandateIQ)**: a multi-agent LLM system for fund review. A Proponent agent builds the case for approving a fund and a Challenger agent attacks it, for up to three rounds. Every claim has to cite an evidence ledger, and a hallucination firewall blocks claims that cite missing or misquoted evidence. 11 policy rules and a 6-factor Trust Score decide whether a case is finalized, reworked, or sent to a person. FastAPI and React/TypeScript, with AWS Bedrock as the main model provider and a Groq adapter for when I don't have AWS access. [Code and architecture →](https://github.com/sreejasun/MandateIQ)
 - **CustomNER** (BDSR Solutions): a Python and spaCy pipeline for pulling structured entities out of unstructured job postings, wrapped in a Flask human-in-the-loop app that combines annotation, active learning and iterative retraining. Entity F1 went from 0.59 to 0.93 over 18 iterations while the manual labeling effort dropped. It's an internal tool, so there's no public repo.
-- **Delivery optimization** (IIT Madras): a dynamic delivery-assignment system for 500K+ weekly orders, using clustering and distance-based allocation with SQL integration for reporting. It reached 95% on-time fulfillment. Supervised by Prof. C. Rajendran and Dr. G. Viswanath (TCS) at DoMS, IIT Madras. [Read the paper →](https://drive.google.com/file/d/1v_k7RDhcDrZIFxkG2X88pN_TKJix34Hd/view?usp=drive_link)
+- **Delivery optimization** (IIT Madras): a dynamic delivery-assignment system for 500K+ weekly orders, using clustering and distance-based allocation with SQL integration for reporting. It reached 95% on-time fulfillment. Supervised by Prof. C. Rajendran and Dr. G. Viswanath (TCS) at DoMS, IIT Madras. Presented at SOM 2024, IMT Ghaziabad ([certificate →](https://drive.google.com/file/d/1v_k7RDhcDrZIFxkG2X88pN_TKJix34Hd/view?usp=drive_link)).
 - **Multi-document RAG**: a question-answering pipeline over several documents, using Hugging Face embeddings and FAISS for retrieval and Gemini Pro (through LangChain) to write the answer.
-- **AI product cataloging** (UdyamWell, on the ONDC network): object detection plus description generation to automate product images in the onboarding flow, at 92% detection accuracy. [Details →](https://drive.google.com/file/d/1lOrfOd4O5sxYROFxYkp2dERLhaXOOSNO/view?usp=drive_link)
+- **AI product cataloging** (UdyamWell, on the ONDC network): object detection plus description generation to automate product images in the onboarding flow, at 92% detection accuracy.
 
 <img src="assets/h-experience.svg" alt="Experience" width="100%"/>
 
@@ -66,12 +71,12 @@ Under the hood it's a FastAPI + SQLite backend with a React/TypeScript interface
 | **Jun 2026 – now** | AI Engineer, Python Full Stack Intern · BDSR Solutions LLP | Designed and deployed CustomNER from scratch, then built the Flask human-in-the-loop app around it. |
 | **Mar 2026 – now** | Information Systems Grader · [Arizona State University](https://www.asu.edu/) | Grading graduate-level work in Python, information systems and analytics, with technical feedback students can act on. |
 | **Jun 2024 – Apr 2025** | ML Research Intern · [IIT Madras](https://www.iitm.ac.in/) | NLP pipeline over 1,000+ customer-feedback records scraped from public sites, to find operational patterns in courier services. A two-level classifier that sorts feedback and routes it into 6 departments. A real-time email classification app for non-technical ops teams. |
-| **Sep – Oct 2024** | AI Developer Intern · [UdyamWell](https://drive.google.com/file/d/1lOrfOd4O5sxYROFxYkp2dERLhaXOOSNO/view?usp=drive_link) (ONDC) | Computer-vision cataloging system, integrated into ONDC product onboarding: 92% detection accuracy, 40% less manual cataloging. |
+| **Sep – Oct 2024** | AI Developer Intern · UdyamWell (ONDC) | Computer-vision cataloging system, integrated into ONDC product onboarding: 92% detection accuracy, 40% less manual cataloging. |
 
 <img src="assets/h-research.svg" alt="Research" width="100%"/>
 
 - 📄 **[GenAI-Driven Intelligent Email Ticketing: An End-to-End Architecture for Automated Sentiment-Aware Customer Support](https://link.springer.com/chapter/10.1007/978-3-032-22114-8_29)**. ICACECS 2025, *Smart Innovation, Systems and Technologies* vol. 488, Springer. ([DOI](https://doi.org/10.1007/978-3-032-22114-8_29))
-- 📄 **[Optimizing Delivery Operations in Dynamic Urban Environments: A Comprehensive Model](https://drive.google.com/file/d/1v_k7RDhcDrZIFxkG2X88pN_TKJix34Hd/view?usp=drive_link)**. *Sustainable Paradigms in Operations and Supply Chain Management*.
+- 📄 **Optimizing Delivery Operations in Dynamic Urban Environments: A Comprehensive Model**. *Sustainable Paradigms in Operations and Supply Chain Management*. Presented at SOM 2024, IMT Ghaziabad ([certificate](https://drive.google.com/file/d/1v_k7RDhcDrZIFxkG2X88pN_TKJix34Hd/view?usp=drive_link)).
 
 More on [Google Scholar](https://scholar.google.com/citations?hl=en&user=s_hU8_UAAAAJ).
 

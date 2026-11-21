@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-label="Umbra: Fastest drives. Shadiest walks.  ·  my current project">
+<title>Umbra — Fastest drives. Shadiest walks.  ·  my current project</title>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B0B0E"/><stop offset="1" stop-color="#16111b"/></linearGradient>
+<clipPath id="cc"><rect width="1000" height="300" rx="20"/></clipPath></defs>
+<g clip-path="url(#cc)">
+<rect width="1000" height="300" fill="url(#bg)"/>
+<circle cx="940" cy="30" r="130" fill="#E8A0B8" opacity=".06"><animate attributeName="opacity" values=".04;.1;.04" dur="6s" repeatCount="indefinite"/></circle>
+<text x="28" y="46" font-family="Inter,Segoe UI,Helvetica,Arial,sans-serif" font-size="22" font-weight="800" fill="#f4f4f7">Umbra</text>
+<text x="28" y="68" font-family="SF Mono,Menlo,Consolas,monospace" font-size="12.5" fill="#E8A0B8">Fastest drives. Shadiest walks.  ·  my current project</text>
+
+<text x="28" y="104" font-family="Inter,Segoe UI,Helvetica,Arial,sans-serif" font-size="14.5" fill="#c9c9d1">A C++20 routing engine and web app for Tempe,</text>
+<text x="28" y="124" font-family="Inter,Segoe UI,Helvetica,Arial,sans-serif" font-size="14.5" fill="#c9c9d1">built on OpenStreetMap. Drives account for traffic,</text>
+<text x="28" y="144" font-family="Inter,Segoe UI,Helvetica,Arial,sans-serif" font-size="14.5" fill="#c9c9d1">rain and sun glare; walks keep you out of the sun.</text>
+<rect x="28" y="172" width="156" height="30" rx="15" fill="none" stroke="#E8A0B8" stroke-opacity=".5"/><text x="106.0" y="192" text-anchor="middle" font-family="Inter,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" fill="#e9e9ee">≈ 0.6 ms drive search</text><rect x="194" y="172" width="178" height="30" rx="15" fill="none" stroke="#E8A0B8" stroke-opacity=".5"/><text x="283.0" y="192" text-anchor="middle" font-family="Inter,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" fill="#e9e9ee">15,685 buildings shaded</text>
+<rect x="28" y="212" width="124" height="30" rx="15" fill="none" stroke="#E8A0B8" stroke-opacity=".5"/><text x="90.0" y="232" text-anchor="middle" font-family="Inter,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" fill="#e9e9ee">162 C++ tests</text><rect x="162" y="212" width="196" height="30" rx="15" fill="none" stroke="#E8A0B8" stroke-opacity=".5"/><text x="260.0" y="232" text-anchor="middle" font-family="Inter,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" fill="#e9e9ee">Ask Umbra (LLM tool use)</text>
+<g transform="translate(520 34)">
+<clipPath id="pm"><rect width="450" height="226" rx="16"/></clipPath>
+<g clip-path="url(#pm)">
+<rect width="450" height="226" fill="#0f0f14"/>
+<line x1="0" y1="40" x2="450" y2="40" stroke="#2a2a33" stroke-width="7"/><line x1="0" y1="100" x2="450" y2="100" stroke="#2a2a33" stroke-width="7"/><line x1="0" y1="200" x2="450" y2="200" stroke="#2a2a33" stroke-width="7"/><line x1="60" y1="0" x2="60" y2="226" stroke="#2a2a33" stroke-width="7"/><line x1="140" y1="0" x2="140" y2="226" stroke="#2a2a33" stroke-width="7"/><line x1="220" y1="0" x2="220" y2="226" stroke="#2a2a33" stroke-width="7"/><line x1="300" y1="0" x2="300" y2="226" stroke="#2a2a33" stroke-width="7"/><line x1="380" y1="0" x2="380" y2="226" stroke="#2a2a33" stroke-width="7"/><path d="M120,124 L154,134 L154,194 L120,180 Z" fill="#7c8cf0" opacity=".32"/><path d="M200,56 L234,66 L234,102 L200,88 Z" fill="#7c8cf0" opacity=".32"/><path d="M280,124 L314,134 L314,194 L280,180 Z" fill="#7c8cf0" opacity=".32"/><path d="M360,56 L394,66 L394,102 L360,88 Z" fill="#7c8cf0" opacity=".32"/><path d="M120,56 L154,66 L154,102 L120,88 Z" fill="#7c8cf0" opacity=".32"/><path d="M360,124 L394,134 L394,194 L360,180 Z" fill="#7c8cf0" opacity=".32"/><path d="M200,124 L234,134 L234,194 L200,180 Z" fill="#7c8cf0" opacity=".32"/><rect x="80" y="120" width="40" height="60" rx="3" fill="#23232b" stroke="#3b3b45"/><rect x="160" y="52" width="40" height="36" rx="3" fill="#23232b" stroke="#3b3b45"/><rect x="240" y="120" width="40" height="60" rx="3" fill="#23232b" stroke="#3b3b45"/><rect x="320" y="52" width="40" height="36" rx="3" fill="#23232b" stroke="#3b3b45"/><rect x="80" y="52" width="40" height="36" rx="3" fill="#23232b" stroke="#3b3b45"/><rect x="320" y="120" width="40" height="60" rx="3" fill="#23232b" stroke="#3b3b45"/><rect x="160" y="120" width="40" height="60" rx="3" fill="#23232b" stroke="#3b3b45"/>
+<path d="M60,200 L60,40 L380,40" fill="none" stroke="#6a6a78" stroke-width="3" stroke-dasharray="7 7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M60,200 L140,200 L140,100 L300,100 L300,200 L380,200 L380,40" fill="none" stroke="#E8A0B8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1">
+  <animate attributeName="stroke-dashoffset" values="1;0;0;1" keyTimes="0;.6;.9;1" dur="7s" repeatCount="indefinite"/></path>
+<circle r="6" fill="#F3C6D5"><animateMotion dur="7s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;.6;1" calcMode="linear" path="M60,200 L140,200 L140,100 L300,100 L300,200 L380,200 L380,40"/></circle>
+<circle cx="60" cy="200" r="7" fill="#101015" stroke="#F3C6D5" stroke-width="2.5"/>
+<circle cx="380" cy="40" r="7" fill="#E8A0B8"/>
+<g transform="translate(412 26)"><circle r="9" fill="#ffd58a"/><g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="20s" repeatCount="indefinite"/><line x1="14.0" y1="0.0" x2="20.0" y2="0.0" stroke="#ffd58a" stroke-width="2" stroke-linecap="round"/><line x1="9.9" y1="9.9" x2="14.1" y2="14.1" stroke="#ffd58a" stroke-width="2" stroke-linecap="round"/><line x1="0.0" y1="14.0" x2="0.0" y2="20.0" stroke="#ffd58a" stroke-width="2" stroke-linecap="round"/><line x1="-9.9" y1="9.9" x2="-14.1" y2="14.1" stroke="#ffd58a" stroke-width="2" stroke-linecap="round"/><line x1="-14.0" y1="0.0" x2="-20.0" y2="0.0" stroke="#ffd58a" stroke-width="2" stroke-linecap="round"/><line x1="-9.9" y1="-9.9" x2="-14.1" y2="-14.1" stroke="#ffd58a" stroke-width="2" stroke-linecap="round"/><line x1="-0.0" y1="-14.0" x2="-0.0" y2="-20.0" stroke="#ffd58a" stroke-width="2" stroke-linecap="round"/><line x1="9.9" y1="-9.9" x2="14.1" y2="-14.1" stroke="#ffd58a" stroke-width="2" stroke-linecap="round"/></g></g>
+</g>
+<rect width="450" height="226" rx="16" fill="none" stroke="#E8A0B8" stroke-opacity=".25"/>
+<text x="0" y="250" font-family="SF Mono,Menlo,Consolas,monospace" font-size="11.5" fill="#8d8d99">- - shortest: 23% shaded</text>
+<text x="450" y="250" text-anchor="end" font-family="SF Mono,Menlo,Consolas,monospace" font-size="11.5" fill="#E8A0B8">— balanced: 48% shaded, +9% distance</text>
+</g>
+
+<text x="28" y="278" font-family="SF Mono,Menlo,Consolas,monospace" font-size="11.5" fill="#8d8d99">C++20 · CMake · SQLite · libsodium · Dijkstra / A* · Leaflet PWA</text>
+</g>
+<rect x=".5" y=".5" width="999" height="299" rx="20" fill="none" stroke="#E8A0B8" stroke-opacity=".28"/>
+</svg>
