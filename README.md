@@ -3,10 +3,12 @@
 <img src="assets/hero.svg" alt="Sreeja Sunkeswaram: AI engineer, MS Data Science student at ASU" width="100%"/>
 
 <br/>
-[![Portfolio](https://img.shields.io/badge/Portfolio-E8A0B8?style=for-the-badge&logo=googlechrome&logoColor=0B0B0E&labelColor=0B0B0E)](https://sreejasun.github.io/sreeja-profile/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-E8A0B8?style=for-the-badge&logo=linkedin&logoColor=0B0B0E&labelColor=0B0B0E)](https://www.linkedin.com/in/sreeja-sunkeswaram-275208241/)
-[![Google Scholar](https://img.shields.io/badge/Google_Scholar-E8A0B8?style=for-the-badge&logo=googlescholar&logoColor=0B0B0E&labelColor=0B0B0E)](https://scholar.google.com/citations?hl=en&user=s_hU8_UAAAAJ)
-[![Email](https://img.shields.io/badge/Email-E8A0B8?style=for-the-badge&logo=gmail&logoColor=0B0B0E&labelColor=0B0B0E)](mailto:sunkeswaramsreeja@gmail.com)
+
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-E8A0B8?style=for-the-badge)](https://sreejasun.github.io/sreeja-profile/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-E8A0B8?style=for-the-badge)](https://www.linkedin.com/in/sreeja-sunkeswaram-275208241/)
+[![Google Scholar](https://img.shields.io/badge/Google_Scholar-E8A0B8?style=for-the-badge)](https://scholar.google.com/citations?hl=en&user=s_hU8_UAAAAJ)
+[![Email](https://img.shields.io/badge/Email-E8A0B8?style=for-the-badge)](mailto:sunkeswaramsreeja@gmail.com)
 
 </div>
 
